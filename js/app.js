@@ -20,7 +20,7 @@ for(let i = max; i >  min; i--) {
     document.querySelector('#year').appendChild(option);
 }
 
-// Datos para la busqueda
+// Datos para la Busqueda
 const datosBusqueda = {
     marca : '',
     year: '',
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     mostrarAutos(autos);
 });
 
-// Event Listeners para el formulario
+// Event Listeners para el Formulario
 marca.addEventListener('input', e => {
     datosBusqueda.marca = e.target.value;
 
